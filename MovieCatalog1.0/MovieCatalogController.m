@@ -114,13 +114,6 @@ static float topBarHeight = 20.f;
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     switch (section) {
         case 0:
-//            if (self.isSearching)
-//                return self.currentCatalog.count;
-//            else
-//                if (self.currentCatalog.count == 0)
-//                    return 1;
-//                else
-//                    return self.currentCatalog.count;
             return self.currentCatalog.count;
         case 1:
             return self.movieCatalogData.worldTopRatedMoviesData.count;
@@ -132,14 +125,7 @@ static float topBarHeight = 20.f;
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString* movieCellIdentifier = @"MovieCellComponent";
-//    static NSString* addMovieCellIdentifier = @"AddMovieCellComponent";
-    
-//    if (indexPath.section == 0 && !self.isSearching && self.currentCatalog.count == 0) {
-//        AddMovieCellComponent* cell = [tableView dequeueReusableCellWithIdentifier:addMovieCellIdentifier];
-//        UITableViewCell* cell = [[UITableViewCell alloc] init];
-//        return cell;
-//    }
-    
+
     MovieCellComponent* cell = [tableView dequeueReusableCellWithIdentifier:movieCellIdentifier];
     if (indexPath.section == 0)
         cell.movieData = [self.currentCatalog objectAtIndex:indexPath.row];
@@ -158,18 +144,17 @@ static float topBarHeight = 20.f;
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
-//    if (indexPath.section == 0 && !self.isSearching && self.currentCatalog.count == 0) {
-//        [self addButtonClicked:self.addButton];
-//        return;
-//    }
-    
+
     MovieViewController* movieViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MovieViewController"];
     movieViewController.movieCatalogController = self;
-    if (indexPath.section == 0)
+    if (indexPath.section == 0) {
         movieViewController.movieData = [self.currentCatalog objectAtIndex:indexPath.row];
-    else
+        movieViewController.isEditable = YES;
+    }
+    else {
         movieViewController.movieData = [self.movieCatalogData.worldTopRatedMoviesData objectAtIndex:indexPath.row];
+        movieViewController.isEditable = NO;
+    }
     [self.navigationController pushViewController:movieViewController animated:YES];
 }
 

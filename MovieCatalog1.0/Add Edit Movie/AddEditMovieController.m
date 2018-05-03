@@ -152,6 +152,8 @@
 }
 
 - (IBAction)selectImageFromGalleryButtonClicked:(UIButton*)sender {
+    self.navigationItem.rightBarButtonItem = self.saveButton;
+    
     UIImagePickerController* pickerViewController = [[UIImagePickerController alloc] init];
     pickerViewController.allowsEditing = NO;
     pickerViewController.delegate = self;

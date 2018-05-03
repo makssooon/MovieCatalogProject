@@ -17,10 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIBarButtonItem* editButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit
-                                                                                target:self
-                                                                                action:@selector(editButtonClicked:)];
-    self.navigationItem.rightBarButtonItem = editButton;
+    if (self.isEditable) {
+        UIBarButtonItem* editButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit
+                                                                                    target:self
+                                                                                    action:@selector(editButtonClicked:)];
+        self.navigationItem.rightBarButtonItem = editButton;
+    }
     [self setData:self.movieData];
 }
 

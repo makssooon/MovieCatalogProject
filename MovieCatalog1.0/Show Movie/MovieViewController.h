@@ -14,6 +14,7 @@
 
 @property (strong, nonatomic) id<AddEditMovieDelegate> movieCatalogController;
 
+@property (assign, nonatomic) BOOL isEditable;
 @property (strong, nonatomic) MovieData* movieData;
 @property (weak, nonatomic) IBOutlet UILabel* titleLabel;
 @property (weak, nonatomic) IBOutlet UIImageView* posterImageView;
