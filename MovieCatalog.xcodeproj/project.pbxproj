@@ -12,8 +12,6 @@
 		D79D16222080CFD800F9F769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79D16212080CFD800F9F769 /* Assets.xcassets */; };
 		D79D16252080CFD800F9F769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79D16232080CFD800F9F769 /* LaunchScreen.storyboard */; };
 		D79D16282080CFD800F9F769 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D79D16272080CFD800F9F769 /* main.m */; };
-		D79D16322080CFD800F9F769 /* MovieCatalog1_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D79D16312080CFD800F9F769 /* MovieCatalog1_0Tests.m */; };
-		D79D163D2080CFD800F9F769 /* MovieCatalog1_0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D79D163C2080CFD800F9F769 /* MovieCatalog1_0UITests.m */; };
 		D79D164F2080D07400F9F769 /* MovieCatalogController.m in Sources */ = {isa = PBXBuildFile; fileRef = D79D164E2080D07400F9F769 /* MovieCatalogController.m */; };
 		D79D16552080D1D700F9F769 /* MovieData.m in Sources */ = {isa = PBXBuildFile; fileRef = D79D16542080D1D700F9F769 /* MovieData.m */; };
 		D79D16582080D2D400F9F769 /* MovieCellComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = D79D16572080D2D400F9F769 /* MovieCellComponent.m */; };
@@ -54,11 +52,7 @@
 		D79D16262080CFD800F9F769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D79D16272080CFD800F9F769 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D79D162D2080CFD800F9F769 /* MovieCatalogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieCatalogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D79D16312080CFD800F9F769 /* MovieCatalog1_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCatalog1_0Tests.m; sourceTree = "<group>"; };
-		D79D16332080CFD800F9F769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D79D16382080CFD800F9F769 /* MovieCatalogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieCatalogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D79D163C2080CFD800F9F769 /* MovieCatalog1_0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCatalog1_0UITests.m; sourceTree = "<group>"; };
-		D79D163E2080CFD800F9F769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D79D164D2080D07400F9F769 /* MovieCatalogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCatalogController.h; sourceTree = "<group>"; };
 		D79D164E2080D07400F9F769 /* MovieCatalogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCatalogController.m; sourceTree = "<group>"; };
 		D79D16532080D1D700F9F769 /* MovieData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieData.h; sourceTree = "<group>"; };
@@ -111,8 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				D79D16172080CFD700F9F769 /* MovieCatalog */,
-				D79D16302080CFD800F9F769 /* MovieCatalogTests */,
-				D79D163B2080CFD800F9F769 /* MovieCatalogUITests */,
 				D79D16162080CFD700F9F769 /* Products */,
 				D7EEF9232089DF4B005AEB3C /* Frameworks */,
 			);
@@ -146,24 +138,6 @@
 				D79D16272080CFD800F9F769 /* main.m */,
 			);
 			path = MovieCatalog;
-			sourceTree = "<group>";
-		};
-		D79D16302080CFD800F9F769 /* MovieCatalogTests */ = {
-			isa = PBXGroup;
-			children = (
-				D79D16312080CFD800F9F769 /* MovieCatalog1_0Tests.m */,
-				D79D16332080CFD800F9F769 /* Info.plist */,
-			);
-			path = MovieCatalogTests;
-			sourceTree = "<group>";
-		};
-		D79D163B2080CFD800F9F769 /* MovieCatalogUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D79D163C2080CFD800F9F769 /* MovieCatalog1_0UITests.m */,
-				D79D163E2080CFD800F9F769 /* Info.plist */,
-			);
-			path = MovieCatalogUITests;
 			sourceTree = "<group>";
 		};
 		D7B5D17B2083349F009CF621 /* Model */ = {
@@ -376,7 +350,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D79D16322080CFD800F9F769 /* MovieCatalog1_0Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +357,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D79D163D2080CFD800F9F769 /* MovieCatalog1_0UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
