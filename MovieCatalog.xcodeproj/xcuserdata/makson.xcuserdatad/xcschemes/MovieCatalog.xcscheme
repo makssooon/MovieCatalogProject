@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D79D16142080CFD700F9F769"
-               BuildableName = "MovieCatalog1.0.app"
-               BlueprintName = "MovieCatalog1.0"
-               ReferencedContainer = "container:MovieCatalog1.0.xcodeproj">
+               BuildableName = "MovieCatalog.app"
+               BlueprintName = "MovieCatalog"
+               ReferencedContainer = "container:MovieCatalog.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D79D162C2080CFD800F9F769"
-               BuildableName = "MovieCatalog1.0Tests.xctest"
-               BlueprintName = "MovieCatalog1.0Tests"
-               ReferencedContainer = "container:MovieCatalog1.0.xcodeproj">
+               BuildableName = "MovieCatalogTests.xctest"
+               BlueprintName = "MovieCatalogTests"
+               ReferencedContainer = "container:MovieCatalog.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D79D16372080CFD800F9F769"
-               BuildableName = "MovieCatalog1.0UITests.xctest"
-               BlueprintName = "MovieCatalog1.0UITests"
-               ReferencedContainer = "container:MovieCatalog1.0.xcodeproj">
+               BuildableName = "MovieCatalogUITests.xctest"
+               BlueprintName = "MovieCatalogUITests"
+               ReferencedContainer = "container:MovieCatalog.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D79D16142080CFD700F9F769"
-            BuildableName = "MovieCatalog1.0.app"
-            BlueprintName = "MovieCatalog1.0"
-            ReferencedContainer = "container:MovieCatalog1.0.xcodeproj">
+            BuildableName = "MovieCatalog.app"
+            BlueprintName = "MovieCatalog"
+            ReferencedContainer = "container:MovieCatalog.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D79D16142080CFD700F9F769"
-            BuildableName = "MovieCatalog1.0.app"
-            BlueprintName = "MovieCatalog1.0"
-            ReferencedContainer = "container:MovieCatalog1.0.xcodeproj">
+            BuildableName = "MovieCatalog.app"
+            BlueprintName = "MovieCatalog"
+            ReferencedContainer = "container:MovieCatalog.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
@@ -101,9 +101,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D79D16142080CFD700F9F769"
-            BuildableName = "MovieCatalog1.0.app"
-            BlueprintName = "MovieCatalog1.0"
-            ReferencedContainer = "container:MovieCatalog1.0.xcodeproj">
+            BuildableName = "MovieCatalog.app"
+            BlueprintName = "MovieCatalog"
+            ReferencedContainer = "container:MovieCatalog.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

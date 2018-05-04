@@ -257,7 +257,7 @@
             </objects>
             <point key="canvasLocation" x="1825" y="530"/>
         </scene>
-        <!--Movie Catalog-->
+        <!--Catalog-->
         <scene sceneID="SPv-pZ-iGA">
             <objects>
                 <tableViewController id="jpj-e5-qtd" customClass="MovieCatalogController" sceneMemberID="viewController">
@@ -273,7 +273,7 @@
                                 <string>Title</string>
                                 <string>Genre</string>
                                 <string>Release</string>
-                                <string>Director</string>
+                                <string>About</string>
                                 <string>Created</string>
                             </scopeButtonTitles>
                         </searchBar>
@@ -319,7 +319,7 @@
                             <outlet property="delegate" destination="jpj-e5-qtd" id="tc7-0W-uuQ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Movie Catalog" id="ANt-mt-ebt">
+                    <navigationItem key="navigationItem" title="Catalog" id="ANt-mt-ebt">
                         <barButtonItem key="leftBarButtonItem" systemItem="search" id="747-h4-xde"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Zws-kM-nVL"/>
                     </navigationItem>

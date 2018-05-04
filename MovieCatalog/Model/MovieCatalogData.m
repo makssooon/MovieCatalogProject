@@ -183,8 +183,8 @@
                     notFound = YES;
                 break;
             }
-            case MovieCatalogDataSearchTypeByDirector: {
-                if ([movieData.director rangeOfString:filter options:NSCaseInsensitiveSearch].location == NSNotFound)
+            case MovieCatalogDataSearchTypeByAbout: {
+                if ([movieData.movieDescription rangeOfString:filter options:NSCaseInsensitiveSearch].location == NSNotFound)
                     notFound = YES;
                 break;
             }

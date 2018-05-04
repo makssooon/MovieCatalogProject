@@ -17,7 +17,7 @@ typedef NS_ENUM(NSInteger, MovieCatalogDataSearchType) {
     MovieCatalogDataSearchTypeByTitle       = 0,
     MovieCatalogDataSearchTypeByGenre       = 1,
     MovieCatalogDataSearchTypeByRelease     = 2,
-    MovieCatalogDataSearchTypeByDirector    = 3,
+    MovieCatalogDataSearchTypeByAbout       = 3,
     MovieCatalogDataSearchTypeByCreatedDate = 4
     
 };
