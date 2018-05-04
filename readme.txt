@@ -2,8 +2,9 @@ Test Assignment for MacPaw Summer Internship 2018
 Direction: Сocoa Development
 Created by Maksym Popovych
 
-MovieCatalog is the application that helps users save information about a 
-movie as well as to leave comments about it prior to and after watching. 
+MovieCatalog is the iPhone application that helps users save information 
+about a  movie as well as to leave comments about it prior to and after 
+watching. 
 Additionally, the app offers the list of the world’s top-rated movies. At 
 this stage it contains several pictures that I regard as excellent and 
 highly-recommended to see.
@@ -32,7 +33,7 @@ Viewing movie-related information
 Searching the film catalog
  - Search bar can be found after scrolling to the top of the page or pressing 
 	the search button in the screen’s top left corner.
- - The search results only display user-added movies.
+ - The search results only display user-added movies!
  - Segmented control, which helps to select search criteria, can be found under 
 	the search bar.
 
