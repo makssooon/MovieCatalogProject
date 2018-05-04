@@ -1,42 +1,42 @@
-Тестовое задание для MacPaw Summer Internship 2018
-Направление Cocoa Development
+Test Assignment for MacPaw Summer Internship 2018
+Direction: Сocoa Development
 Created by Maksym Popovych
 
-MovieCatalog это приложение с которым пользователь сможет сохранять информацию 
-о фильме а также свои комментарии до или после просмотра.
-Также приложение предоставляет пользователю список world top rated movies. На
-данный момент я положил несколько по моему мнению отличных фильмов.
+MovieCatalog is the application that helps users save information about a 
+movie as well as to leave comments about it prior to and after watching. 
+Additionally, the app offers the list of the world’s top-rated movies. At 
+this stage it contains several pictures that I regard as excellent and 
+highly-recommended to see.
 
-Немного о возможностях приложения:
+Some of the app’s functionality:
 
-Добавления информации о фильме
- - Добавить новый фильм пользователь может с помощью кнопки в верхней правой 
-	части экрана.
- - Нажатием на изображение пользователь сможет выбрать постер для фильма из 
-	галереи (если изображение не выбрано будет использовано дефолтное).
- - Title, genre and director фильма пользователь может вписать любые, главное 
-	чтобы поля не оставались пустыми.
- - Release date пользователю поможет выбрать date picker keyboard с двумя 
-	ограничениями: поле не должно быть пустым и дата должна быть не 
-	раньше 14.10.1888.
- - В поле about должен быть хоть какой-то текст и он не должен содержать в 
-	себе стандартное предложение "add movie description...".
- - Приложение даст пользователю понять о некорректности ввода информации. 
-	Поля с некорректным вводом засветятся красным оттенком.
+Adding information about the movie
+ - A new movie can be added using the button in the screen’s top right corner.
+ - By pressing the image area users can choose a movie poster from the 
+	gallery (a default poster will be used in case no image is selected).
+- Users can input any title, genre, and movie director, as long as these 
+	fields are not left empty.
+ - Release date can be selected with the help of the date picker keyboard that 
+	has 2 limitations: the field cannot be left empty, and the date cannot 
+	be earlier than 14.10.1888.
+ - The about field should contain any text and should not include the standard 
+	sentence "add movie description...".
+ - The app will notify the user if any information input was invalid. 
+	Fields with invalid data will be marked red.
+ 
+Viewing movie-related information
+ - When clicking a movie thumbnail (cell) in the main menu a page containing 
+	movie related information will appear.
+ - If a user-created movie was selected the ‘Edit’ button will show up.
 
-Просмотр информации о фильме
- - При нажатии на фильм в главном меню отобразится страничка с информацией
-	о фильме.
- - Если пользователь выбрал созданный им фильм он увидит кнопку Edit.
+Searching the film catalog
+ - Search bar can be found after scrolling to the top of the page or pressing 
+	the search button in the screen’s top left corner.
+ - The search results only display user-added movies.
+ - Segmented control, which helps to select search criteria, can be found under 
+	the search bar.
 
-Поиск по каталогу фильмов
- - Search bar пользователь может найти проскроллив на самый верх страницы 
-	или нажав на кнопку поиска в верхней левой части экрана.
- - Поиск осуществляется только по фильмам добавленными пользователем.
- - Так же под search bar находится segmented control с помощью которого 
-	пользователь может выбрать критерий поиска.
+ - For the ease of navigating, the main menu features a button that takes the 
+	user to the top of the list. 
 
- - Для удобства навигации в главном меню появляется кнопка позволяющая подняться
-	наверх списка.
-
-Надеюсь вам понравится)
+I hope you will like it)

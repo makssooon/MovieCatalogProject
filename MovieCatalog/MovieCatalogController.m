@@ -105,7 +105,7 @@ static float topBarHeight = 20.f;
         case 0:
             return @"Your Movies";
         case 1:
-            return @"World Top Rated Movies";
+            return @"World's Top Rated Movies";
         default:
             return @"Error";
     }
