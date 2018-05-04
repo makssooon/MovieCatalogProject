@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D79D162C2080CFD800F9F769"
-               BuildableName = "MovieCatalogTests.xctest"
-               BlueprintName = "MovieCatalogTests"
-               ReferencedContainer = "container:MovieCatalog.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D79D16372080CFD800F9F769"
-               BuildableName = "MovieCatalogUITests.xctest"
-               BlueprintName = "MovieCatalogUITests"
-               ReferencedContainer = "container:MovieCatalog.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
