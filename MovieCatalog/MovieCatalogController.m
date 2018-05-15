@@ -15,6 +15,11 @@
 @property (strong, nonatomic) UIButton* upButton;
 @property (assign, nonatomic) BOOL isSearching;
 
+//IBOutlets
+@property (weak, nonatomic) IBOutlet UIBarButtonItem* addButton;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem* searchButton;
+@property (weak, nonatomic) IBOutlet UISearchBar* searchBar;
+
 @end
 
 @implementation MovieCatalogController

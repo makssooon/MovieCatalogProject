@@ -24,8 +24,8 @@ typedef NS_ENUM(NSInteger, MovieCatalogDataSearchType) {
 
 @interface MovieCatalogData : NSObject
 
-@property (strong, nonatomic) NSMutableArray* userMoviesData;
-@property (strong, nonatomic) NSMutableArray* worldTopRatedMoviesData;
+@property (strong, nonatomic, readonly) NSMutableArray* userMoviesData;
+@property (strong, nonatomic, readonly) NSMutableArray* worldTopRatedMoviesData;
 @property (readonly, strong) NSPersistentContainer *persistentContainer;
 
 - (void)saveContext;

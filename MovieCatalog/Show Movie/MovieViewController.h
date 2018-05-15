@@ -16,12 +16,5 @@
 
 @property (assign, nonatomic) BOOL isEditable;
 @property (strong, nonatomic) MovieData* movieData;
-@property (weak, nonatomic) IBOutlet UILabel* titleLabel;
-@property (weak, nonatomic) IBOutlet UIImageView* posterImageView;
-@property (weak, nonatomic) IBOutlet UILabel* directorLabel;
-@property (weak, nonatomic) IBOutlet UILabel* genreLabel;
-@property (weak, nonatomic) IBOutlet UILabel* releaseLabel;
-@property (weak, nonatomic) IBOutlet UITextView* aboutTextView;
-@property (weak, nonatomic) IBOutlet UILabel* createdDateLabel;
 
 @end

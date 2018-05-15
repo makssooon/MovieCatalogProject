@@ -324,7 +324,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Zws-kM-nVL"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="addButton" destination="Zws-kM-nVL" id="Nsw-Jh-GZ7"/>
+                        <outlet property="addButton" destination="Zws-kM-nVL" id="wMf-W7-Gfn"/>
                         <outlet property="searchBar" destination="Kg0-D9-MmX" id="Gs7-o3-mHF"/>
                         <outlet property="searchButton" destination="747-h4-xde" id="tbk-sH-pMP"/>
                     </connections>

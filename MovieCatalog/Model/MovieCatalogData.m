@@ -16,8 +16,8 @@
 -(instancetype)init {
     self = [super init];
     if (self) {
-        self.userMoviesData = [NSMutableArray array];
-        self.worldTopRatedMoviesData = [NSMutableArray array];
+        _userMoviesData = [NSMutableArray array];
+        _worldTopRatedMoviesData = [NSMutableArray array];
 
         NSArray* result = [self movieDataModelsWithPredicate:nil];
         
