@@ -1,5 +1,3 @@
-Test Assignment for MacPaw Summer Internship 2018
-Direction: Сocoa Development
 Created by Maksym Popovych
 
 MovieCatalog is the iPhone application that helps users save information 
