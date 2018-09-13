@@ -9,6 +9,9 @@
 #import "MovieCatalogData.h"
 @interface MovieCatalogData ()
 
+@property (strong, nonatomic) NSMutableArray* userMoviesData;
+@property (strong, nonatomic) NSMutableArray* worldTopRatedMoviesData;
+
 @end
 
 @implementation MovieCatalogData
@@ -88,6 +91,16 @@
     }
     
     return self;
+}
+
+- (NSMutableArray*)getUserMoviesData {
+    
+    return self.userMoviesData;
+}
+
+- (NSMutableArray*)getWorldTopRatedMoviesData {
+    
+    return self.worldTopRatedMoviesData;
 }
 
 - (MovieDataModel*)movieDataModelWithMovieData:(MovieData*)movieData {

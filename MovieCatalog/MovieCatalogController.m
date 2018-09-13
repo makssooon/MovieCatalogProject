@@ -29,7 +29,7 @@
     
 //    creating model...
     self.movieCatalogData = [[MovieCatalogData alloc] init];
-    self.currentCatalog = self.movieCatalogData.userMoviesData;
+    self.currentCatalog = [self.movieCatalogData getUserMoviesData];
     
 //    some preparatoins...
     self.isSearching = NO;
@@ -121,7 +121,7 @@ static float topBarHeight = 20.f;
         case 0:
             return self.currentCatalog.count;
         case 1:
-            return self.movieCatalogData.worldTopRatedMoviesData.count;
+            return [self.movieCatalogData getWorldTopRatedMoviesData].count;
         default:
             return 0;
     }
@@ -135,7 +135,7 @@ static float topBarHeight = 20.f;
     if (indexPath.section == 0)
         cell.movieData = [self.currentCatalog objectAtIndex:indexPath.row];
     else
-        cell.movieData = [self.movieCatalogData.worldTopRatedMoviesData objectAtIndex:indexPath.row];
+        cell.movieData = [[self.movieCatalogData getWorldTopRatedMoviesData] objectAtIndex:indexPath.row];
     
     return cell;
 }
@@ -157,7 +157,7 @@ static float topBarHeight = 20.f;
         movieViewController.isEditable = YES;
     }
     else {
-        movieViewController.movieData = [self.movieCatalogData.worldTopRatedMoviesData objectAtIndex:indexPath.row];
+        movieViewController.movieData = [[self.movieCatalogData getWorldTopRatedMoviesData] objectAtIndex:indexPath.row];
         movieViewController.isEditable = NO;
     }
     [self.navigationController pushViewController:movieViewController animated:YES];
@@ -193,7 +193,7 @@ static float topBarHeight = 20.f;
 
 - (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
     if ([searchText isEqualToString:@""]) {
-        self.currentCatalog = self.movieCatalogData.userMoviesData;
+        self.currentCatalog = [self.movieCatalogData getUserMoviesData];
         self.isSearching = NO;
     }
     else {
@@ -212,7 +212,7 @@ static float topBarHeight = 20.f;
     [searchBar resignFirstResponder];
     [searchBar setShowsCancelButton:NO animated:YES];
     searchBar.text = @"";
-    self.currentCatalog = self.movieCatalogData.userMoviesData;
+    self.currentCatalog = [self.movieCatalogData getUserMoviesData];
     self.isSearching = NO;
     [self.tableView reloadData];
     [self moveToFirstCell:YES];
